@@ -17,15 +17,16 @@
    4. Set the login URL for your GitHub account
       ```
       git remote remove origin
-      git remote add origin "gitbub_sue:suzeeparker/FRApps-basic-training"
+      git remote add origin "github_sue:suzeeparker/FRApps_basic-training"
       ```
    
    5. Commit all new files and push them up to the new empty repository 
       ``` 
-      git commit 
-      git 
-      ``` 
-   
+      git push --set-upstream origin master
+      ```
+      - view the changes in the remote repository 
+    
+    
    6. Create chapter folders
       ```
       mkdir chapter1
