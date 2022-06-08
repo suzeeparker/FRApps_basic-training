@@ -1,0 +1,11 @@
+:root {
+    --sidebar-width                         :  300px;                                   /* was: 17rem = 272px */;
+    }
+
+.markdown-section iframe {
+    position: absolute;
+    left: 0px;
+    margin: 0px 0px 0px -200px;
+    border: 1px solid red;
+    padding: 0 0 0 0;  
+    }    
