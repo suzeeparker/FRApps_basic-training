@@ -50,7 +50,7 @@
       ```
    <div style="margin: 10px 0px -5px 0px;">
        <video width="872" controls>
-         <source  src="videos/sp20606-09-101_FRApps1-ExpVideo02_3. Set remote origin.mp4" type="video/mp4">
+         <source  src="/FRApps_basic-training/FRDocs/Setup-Docsify/videos/sp20606-09-101_FRApps1-ExpVideo02_3. Set remote origin.mp4" type="video/mp4">
        </video>
      </div>
    
@@ -60,7 +60,7 @@
    
    <div style="margin: 10px 0px -5px 0px;">
        <video width="872" controls>
-         <source  src="videos/sp20606-09-101_FRApps1-ExpVideo02_4. View remote.mp4" type="video/mp4">
+         <source  src="/FRApps_basic-training/FRDocs/Setup-Docsify/videos/sp20606-09-101_FRApps1-ExpVideo02_4. View remote.mp4" type="video/mp4">
        </video>
      </div>
 
@@ -70,7 +70,7 @@
 
    <div style="margin: 10px 0px -5px 0px;">
        <video width="872" controls>
-         <source  src="videos/sp20606-09-101_FRApps1-ExpVideo02_5. Commit changes.mp4" type="video/mp4">
+         <source  src="/FRApps_basic-training/FRDocs/Setup-Docsify/videos/sp20606-09-101_FRApps1-ExpVideo02_5. Commit changes.mp4" type="video/mp4">
        </video>
      </div>
 
@@ -95,7 +95,7 @@
       ```
    <div style="margin: 10px 0px -5px 0px;">
        <video width="872" controls>
-         <source  src="videos/sp20606-09-101_FRApps1-ExpVideo02_6. Create chapter folders.mp4" type="video/mp4">
+         <source  src="/FRApps_basic-training/FRDocs/Setup-Docsify/videos/sp20606-09-101_FRApps1-ExpVideo02_6. Create chapter folders.mp4" type="video/mp4">
        </video>
      </div>
 
@@ -110,7 +110,7 @@
 
    <div style="margin: 10px 0px -5px 0px;">
        <video width="872" controls>
-         <source  src="videos/sp20606-09-101_FRApps1-ExpVideo02_7. Add docs folder.mp4" type="video/mp4">
+         <source  src="/FRApps_basic-training/FRDocs/Setup-Docsify/videos/sp20606-09-101_FRApps1-ExpVideo02_7. Add docs folder.mp4" type="video/mp4">
        </video>
      </div>
 
@@ -120,7 +120,7 @@
    
    <div style="margin: 10px 0px -5px 0px;">
        <video width="872" controls>
-         <source  src="videos/sp20606-09-101_FRApps1-ExpVideo01.mp4" type="video/mp4">
+         <source  src="/FRApps_basic-training/FRDocs/Setup-Docsify/videos/sp20606-09-101_FRApps1-ExpVideo01.mp4" type="video/mp4">
        </video>
      </div>
 
@@ -130,7 +130,7 @@
 
    <div style="margin: 10px 0px -5px 0px;">
        <video width="872" controls>
-         <source  src="videos/sp20606-09-101_FRApps1-ExpVideo02_9. Enable docs site.mp4" type="video/mp4">
+         <source  src="/FRApps_basic-training/FRDocs/Setup-Docsify/videos/sp20606-09-101_FRApps1-ExpVideo02_9. Enable docs site.mp4" type="video/mp4">
        </video>
      </div>
 
