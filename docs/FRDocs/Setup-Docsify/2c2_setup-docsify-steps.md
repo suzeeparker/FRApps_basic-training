@@ -1,8 +1,8 @@
 
 <meta property="og:title"       content="Docsify Setup Videos">
 <meta property="og:description" content="This page contains videos that describe how to use setup and use Docsify.">
-<meta property="og:url"         content="https://formr.net/">
 <meta property="og:image"       content="https://suzeeparker.github.io/FRDocs_dev01-suzee/assets/formr-icon.png">
+<meta property="og:url"         content="https://suzeeparker.github.io/FRApps_basic-training/#/FRDocs/Setup-Docsify/2c2_setup-docsify-steps"
 
 # Docsify Docs in Github
 
