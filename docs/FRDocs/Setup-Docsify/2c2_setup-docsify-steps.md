@@ -1,3 +1,9 @@
+
+<meta property="og:title"       content="Docsify Setup Videos">
+<meta property="og:description" content="This page contains videos that describe how to use setup and use Docsify.">
+<meta property="og:url"         content="https://formr.net/">
+<meta property="og:image"       content="https://suzeeparker.github.io/FRDocs_dev01-suzee/assets/formr-icon.png">
+
 # Docsify Docs in Github
 
 <!-- --------------------------------------------------------------------- -->
@@ -9,7 +15,8 @@
    github.com/suzeeparker/FRApps-basic-training 
    ```
    <div style="margin: 10px 0px -5px 0px;">
-       <video width="872" controls>
+           <a id="VID01b" class="video-toggle_btn">Show Video</a><br>
+       <video id="VID01" width="872" controls>
          <source  src="/FRApps_basic-training/FRDocs/Setup-Docsify/videos/sp20606-09-101_FRApps1-ExpVideo02_1. Create Repo.mp4" type="video/mp4">
        </video>
      </div>
@@ -29,7 +36,8 @@
       code . 
       ```  
    <div style="margin: 10px 0px -5px 0px;">
-       <video width="872" controls>
+           <a id="VID02b" class="video-toggle_btn" onclick="videos_toggle(event)">Show Video</a><br>
+       <video id="VID02" width="872" controls>
          <source  src="/FRApps_basic-training/FRDocs/Setup-Docsify/videos/sp20606-09-101_FRApps1-ExpVideo02_2. Open local in VSCode.mp4" type="video/mp4">
        </video>
      </div>
@@ -49,7 +57,8 @@
       git push --set-upstream origin master
       ```
    <div style="margin: 10px 0px -5px 0px;">
-       <video width="872" controls>
+           <a id="VID03b" class="video-toggle_btn" onclick="videos_toggle(event)">Show Video</a><br>
+       <video id="VID03" width="872" controls>
          <source  src="/FRApps_basic-training/FRDocs/Setup-Docsify/videos/sp20606-09-101_FRApps1-ExpVideo02_3. Set remote origin.mp4" type="video/mp4">
        </video>
      </div>
@@ -59,24 +68,26 @@
 ## 4. View populated remote repository      
    
    <div style="margin: 10px 0px -5px 0px;">
-       <video width="872" controls>
+           <a id="VID04b" class="video-toggle_btn" onclick="videos_toggle(event)">Show Video</a><br>
+       <video id="VID04" width="872" controls>
          <source  src="/FRApps_basic-training/FRDocs/Setup-Docsify/videos/sp20606-09-101_FRApps1-ExpVideo02_4. View remote.mp4" type="video/mp4">
        </video>
      </div>
 
 <!-- --------------------------------------------------------------------- -->
-
+<!--
 ## 5. Commit new changes
 
    <div style="margin: 10px 0px -5px 0px;">
-       <video width="872" controls>
+           <a id="VID05b" class="video-toggle_btn" onclick="videos_toggle(event)">Show Video</a><br>
+       <video id="VID05" width="872" controls>
          <source  src="/FRApps_basic-training/FRDocs/Setup-Docsify/videos/sp20606-09-101_FRApps1-ExpVideo02_5. Commit changes.mp4" type="video/mp4">
        </video>
      </div>
-
+-->
 <!-- --------------------------------------------------------------------- -->
 
-## 6. Create chapter folders
+## 5. Create chapter folders
 
    1. In Terminal for File Explorer  
       ```
@@ -94,14 +105,15 @@
       mv 5_BasicBasicWithFooter      5c1_BasicWithFooter
       ```
    <div style="margin: 10px 0px -5px 0px;">
-       <video width="872" controls>
+           <a id="VID06b" class="video-toggle_btn" onclick="videos_toggle(event)">Show Video</a><br>
+       <video id="VID06" width="872" controls>
          <source  src="/FRApps_basic-training/FRDocs/Setup-Docsify/videos/sp20606-09-101_FRApps1-ExpVideo02_6. Create chapter folders.mp4" type="video/mp4">
        </video>
      </div>
 
 <!-- --------------------------------------------------------------------- -->
 
-## 7. Add ./docs folder
+## 6. Add ./docs folder
    1. Copy a `docs` folder into the local repository
    
    2. View the docs 
@@ -109,29 +121,88 @@
       - Open it with `Live Server`
 
    <div style="margin: 10px 0px -5px 0px;">
-       <video width="872" controls>
+           <a id="VID07b" class="video-toggle_btn" onclick="videos_toggle(event)">Show Video</a><br>
+       <video id="VID07" width="872" controls>
          <source  src="/FRApps_basic-training/FRDocs/Setup-Docsify/videos/sp20606-09-101_FRApps1-ExpVideo02_7. Add docs folder.mp4" type="video/mp4">
        </video>
      </div>
 
 <!-- --------------------------------------------------------------------- -->
 
-## 8. Commit staged changes      
+## 7. Commit staged changes      
    
    <div style="margin: 10px 0px -5px 0px;">
-       <video width="872" controls>
+           <a id="VID08b" class="video-toggle_btn" onclick="videos_toggle(event)">Show Video</a><br>
+       <video id="VID08" width="872" controls>
          <source  src="/FRApps_basic-training/FRDocs/Setup-Docsify/videos/sp20606-09-101_FRApps1-ExpVideo01.mp4" type="video/mp4">
        </video>
      </div>
 
 <!-- --------------------------------------------------------------------- -->
 
-## 9. Enable docs in remote repository   
+## 8. Enable docs in remote repository   
 
    <div style="margin: 10px 0px -5px 0px;">
-       <video width="872" controls>
+           <a id="VID09b" class="video-toggle_btn" onclick="videos_toggle(event)">Show Video</a><br>
+       <video id="VID09" width="872" controls>
          <source  src="/FRApps_basic-training/FRDocs/Setup-Docsify/videos/sp20606-09-101_FRApps1-ExpVideo02_9. Enable docs site.mp4" type="video/mp4">
        </video>
      </div>
 
 <!-- --------------------------------------------------------------------- -->
+
+<script>
+    
+            videos_hide()
+            videos_addOnClick()
+
+//--------  ------------------------------------------------------------------ 
+
+  function  videos_hide() {
+
+       var  mVideos = document.querySelectorAll( "video[ID^=VID]" );
+       for (var  i = 0; i < mVideos.length; i++) {
+       var  pVideo = mVideos[i]
+       var  aID    = pVideo.attributes['id'].value
+       var  pLink  = document.querySelector( '#' + aID + 'b' )
+        if (pLink) {
+//          console.log( aID, pLink.innerText )
+            pVideo.style.display = 'none'
+            pLink.innerText = "Show Video"
+            }  }
+         }
+//--------  ------------------------------------------------------------------ 
+
+  function  videos_addOnClick() {
+
+        var mVideos = document.querySelectorAll( "video[ID^=VID]" );
+       for (var  i = 0; i < mVideos.length; i++) {
+       var  pVideo = mVideos[i]
+       var  aID    = pVideo.attributes['id'].value
+       var  pLink  = document.querySelector( '#' + aID + 'b' )
+        if (pLink) {
+            console.log( aID, "Adding onClick event listener" )
+            pLink.addEventListener("click", videos_toggle )
+            }  }
+         }  
+//--------  ------------------------------------------------------------------ 
+
+  function  videos_toggle( pEvent ) { 
+  
+       var  pLink  = pEvent.currentTarget
+       var  aID    = pEvent.currentTarget.attributes['id'].value.replace( /b/, '' )
+       var  pVideo =  document.querySelector( '#' + aID )
+       var  bShow  =  pLink.innerText.match( /^show/i )
+//          alert( `${aID}: ${bShow ? "Showing" : "Hiding"} video.\n Changing link text from ${pLink.innerText} to ${bShow ? "Hide" : "Show"} Video.` )
+            pVideo.style.display = bShow ? 'block' : 'none'
+            pLink.innerText = (bShow ? "Hide" : "Show") + " Video"
+         }
+//--------  ------------------------------------------------------------------ 
+
+//  windows.videos_toggle = videos_toggle  // windows is not defined 
+//          alert( videos_toggle )
+//          alert( global )
+
+</script>
+
+<div style="height: 2000px"/>
